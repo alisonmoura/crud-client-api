@@ -1,6 +1,6 @@
 'use strict'
 
-// importar mongoose
+// importar mongoose (ODM - Object Document Mapping)
 const mongoose = require('mongoose')
 
 // importar body-parser
