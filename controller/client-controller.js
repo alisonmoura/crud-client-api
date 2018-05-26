@@ -29,6 +29,7 @@ class ClientController{
     }
 
     async remove(req, res){
+        console.log("Deletando o cliente...");
         let id = req.body._id;
         res.json(await model.remove({_id: id}));
     }
